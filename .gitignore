@@ -1,0 +1,15 @@
+# локальные секреты и ключи — НИКОГДА не коммитить
+*.local
+*.local.md
+CREDENTIALS.local.md
+secrets*
+askpass*
+id_ed25519*
+id_rsa*
+*.pem
+*.key
+
+# рабочие логи мониторинга (если класть сюда копии с роутера)
+memwatch*.log
+memguard*.log
+psw2-*.log
